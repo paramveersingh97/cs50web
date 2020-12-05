@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="Name" name="name">
+            <input type="password" placeholder="Password" name="password">
+        </div>
+
+        <div>
+            Favourite Color ? 
+            <input  name= "color" type="radio" value="red">RED
+            <input  name= "color" type="radio" value="green">GREEN
+            <input  name= "color" type="radio" value="blue">BLUE
+            <input  name= "color" type="radio" value="yellow">YELLOW
+        </div>
+
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="India">
+                <option value="America">
+                <option value="Pakistan">
+                <option value="New Zeeland">
+                <option value="Australia">
+                <option value="West Indies">
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
